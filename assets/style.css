@@ -1,5 +1,5 @@
 body {
-    background-image: url(people-playing-paper-rock-scissors-royalty-free-illustration-1583269312.jpg);
+    background-image: url(imgs/people-playing-paper-rock-scissors-royalty-free-illustration-1583269312.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
     font-weight: bold;
@@ -14,6 +14,25 @@ body {
 
 #win, #lose, #draw, #restart{
     display: none;
+}
+
+#visualize {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#human {
+    justify-content: left;
+}
+
+#computer {
+    justify-content: right;
+}
+
+.rock, .paper, .scissors {
+    width: 200px;
+    height: 200px;
 }
 
 button {
