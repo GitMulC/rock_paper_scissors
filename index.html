@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/style.css">
     <title>Document</title>
 </head>
 <body>
@@ -31,6 +31,9 @@
         <div>
             <button id="start" onclick="game()">Start</button>
         </div>
+
+        
+
         <div id="win">
             <h2>You Win!!!</h2>
         </div>
@@ -44,6 +47,23 @@
             <button id="restart" onclick="reset()">Reset</button>
         </div>
     </section>
+
+    <div id="visualize">
+        <div id="human">
+            <img class="rock" src="assets/imgs/rock.jpg" alt="rock">
+            <img class="paper" src="assets/imgs/paper.jpg" alt="paper" style="display: none;">
+            <img class="scissors" src="assets/imgs/scissor.jpg" alt="scissors" style="display: none;">
+        </div>
+        <div>
+            <h1>VS.</h1>
+        </div>
+        <div id="computer">
+            <img class="rock" src="assets/imgs/rock.jpg" alt="rock" style="display: none;">
+            <img class="paper" src="assets/imgs/paper.jpg" alt="paper" style="display: none;">
+            <img class="scissors" src="assets/imgs/scissor.jpg" alt="scissors">
+        </div>
+    </div>
+
     <script src="myscript.js"></script>
 </body>
 </html>
